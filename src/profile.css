@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #E5E5E5;
+}
+
+/*main container*/
+.container{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-top: 20px;
+
+}
+.dash p{
+    font-family: Comfortaa;
+    font-weight: normal;
+    margin: 5px;
+    margin-top: 10px;
+    float: left;
+}
+.dash i{
+    color: #000;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.photo img{
+    display: block;
+    border: 1px solid black;
+    width: 128px;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 76px;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    margin-top:20px ;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: -0.015em;
+   
+}
+.address{
+    text-align: center;
+    margin-top: 10px ;
+    color: #000;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    align-items: center;
+}
+.container button{
+    width: 370px;
+    padding: 15px;
+    margin-left: 15px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.container .followMeBtn{
+    background-color: black;
+    color: white;
+
+}
+.container .messageBtn{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.container .seeMoreBtn{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > img {
+    width: 110px;
+    margin: 10px;
+  }
+
+
+  .footer {
+    border-top: 1px solid black;
+    margin-top: 35px;
+    height: 105px;
+  }
+  .footer .comment {
+    float: right;
+    margin-right: 60px;
+    margin-top: 35px;
+  }
+  
+  .footer .badge {
+    float: right;
+    margin-right: 25px;
+    margin-top: 35px;
+  }
+  
+  .footer .home {
+    float: left;
+    margin-left: 25px;
+    margin-top: 35px;
+  }
+  .footer .search {
+    float: left;
+    margin-left: 45px;
+    margin-top: 35px;
+  }
+  .footer .plus {
+    margin-left: 55px;
+    margin-top: 25px;
+    font-size: 10px;
+    color: white;
+    background-color: #ff00d6;
+    border-radius: 50px;
+    width: 80px;
+    border: 1px solid white;
+  }
+  .footer hr {
+    background-color: black;
+    margin-top: 25px;
+    height: 6px;
+    width: 180px;
+    margin-left: 110px;
+    border-radius: 10px;
+  }
+  
